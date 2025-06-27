@@ -223,11 +223,11 @@ reader.borrow(book1);
 console.log("Состояние читателя:");
 console.log(reader.toString());
 
-console.log("\n🔁 Возврат:");
+console.log("Возврат:");
 reader.returnItem(book2);
 
-console.log("\n👩 После возврата:");
+console.log("После возврата:");
 console.log(reader.toString());
 
-console.log("\n📚 Библиотека:");
+console.log("Библиотека:");
 library.showItems();
